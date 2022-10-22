@@ -99,6 +99,6 @@ class AuthController extends Controller
         $user->update();
         
         
-        return redirect('/data')->with('success','Data berhasil Diupate!');
+        return redirect('/profil')->with('success','Data berhasil Diupate!');
     }
 }

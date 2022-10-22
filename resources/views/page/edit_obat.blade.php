@@ -37,7 +37,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Dibuat oleh user :</label>
-                                        <input type="text" class="form-control " name="edit_created_user" value="Bagus" />
+                                        <input type="text" class="form-control " readonly name="edit_created_user" value="{{auth()->user()->name}}" />
                                     </div>
                                     <div class="form-group">
                                         <img src="{{ asset('/image_obat/'.$data->image) }}"

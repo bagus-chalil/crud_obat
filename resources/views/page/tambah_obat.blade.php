@@ -82,7 +82,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Dibuat oleh user :</label>
-                                        <input type="text" class="form-control " name="created_user" value="Bagus" />
+                                        <input type="text" readonly class="form-control " name="created_user" value="{{auth()->user()->name}} " />
                                     </div>
                                     <div class="form-group">
                                     <label for="">Masukkan Gambar</label>

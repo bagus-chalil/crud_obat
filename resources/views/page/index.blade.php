@@ -1,5 +1,4 @@
 <x-template :title="'Home | Website'">
-
 @section("content")
 <!-- Main content -->
 <div class="content">
