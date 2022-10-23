@@ -3,7 +3,7 @@
 <div class="register-box">
     <div class="card card-outline card-primary">
       <div class="card-header text-center">
-        <a href="../../index2.html" class="h1"><b>KIMIA</b>FARMA</a>
+        <a href="/register" class="h1"><b>CRUD</b> Obat</a>
       </div>
       <div class="card-body">
         <p class="login-box-msg">Daftarkan dirimu untuk mengakses kedalam website.</p>

@@ -5,7 +5,7 @@
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
       <div class="card-header text-center">
-        <a href="{{asset('../../index2.html')}} " class="h1"><b>CRUD</b> Obat</a>
+        <a href="/login " class="h1"><b>CRUD</b> Obat</a>
       </div>
       
       @if (session()->has('success'))
