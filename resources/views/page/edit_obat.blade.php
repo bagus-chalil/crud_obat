@@ -47,7 +47,7 @@
                                         <input type="hidden" class="form-control" id="image1" name="image1" value="{{$data->image}} ">
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                                        <button type="submit" class="btn btn-primary btn-block">Edit Obat</button>
                                     </div>
                                 </form>
 
