@@ -85,14 +85,14 @@ class ObatController extends Controller
     public function destroy($id)
     {   
         $data =Obat::find($id);
-        
-        if ($data['is_logged_in'] == 0) {
+        $old_image_destination= 'image_obat/'.$data->image;
+            if (File::exists($old_image_destination)) 
+            {
+                File::delete($old_image_destination);
+            }
+      
             $data->delete();
             return redirect('/data')->with('success','Data berhasil dihapus!');
-        } else {
-            return redirect('/data')->with('failed','Data tidak bisa dihapus!');
-        }
-        
-        $data->delete();
+       
     }
 }

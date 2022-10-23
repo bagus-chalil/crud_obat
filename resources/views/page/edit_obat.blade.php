@@ -14,7 +14,7 @@
                             <div class="card-body">
                                 <form action="/edit_obat/{{$data->id}}" method="post" enctype="multipart/form-data">
                                     @csrf
-                                    @method('PUT');
+                                    @method('PUT')
                                     <div class="form-group">
                                         <label>Nama Obat:</label>
                                         <input type="text"

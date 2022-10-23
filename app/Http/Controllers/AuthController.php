@@ -31,7 +31,7 @@ class AuthController extends Controller
             'name'=>$request->input('name'),
             'email'=>$request->input('email'),
             'telephone'=>$request->input('telephone'),
-            'image'=>$request->input('image'),
+            'image'=>"default.jpg",
             'password' => Hash::make($password),
             'created_at'=>time()
         ]);
@@ -64,7 +64,7 @@ class AuthController extends Controller
  
     $request->session()->regenerateToken();
  
-    return redirect('/login');
+    return redirect('/login')->with('success','Proses Logout berhasil!');
     }
 
     public function profil()

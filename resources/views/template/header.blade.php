@@ -79,11 +79,7 @@
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <span class="dropdown-item dropdown-header">User Menu</span>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-image mr-2"></i> Edit Picture
-            {{-- <span class="float-right text-muted text-sm">3 mins</span> --}}
-          </a>
+
           <div class="dropdown-divider"></div>
           <a href="/edit_profil" class="dropdown-item">
             <i class="fas fa-address-card mr-2"></i> Edit Profile

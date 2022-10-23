@@ -95,9 +95,7 @@
 
                             </div>
                             <div class="card-footer">
-                                Visit <a href="https://getdatepicker.com/5-4/">tempusdominus </a> for more examples and
-                                information about
-                                the plugin.
+                                
                             </div>
                             <!-- /.card-body -->
                         </div>
